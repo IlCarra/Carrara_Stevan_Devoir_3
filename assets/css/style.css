@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@font-face{
+    font-family: "Raleway";
+    src: url(../fonts/Raleway-VariableFont_wght\ \(convert.io\).woff), url(../fonts/Raleway-Italic-VariableFont_wght\ \(convert.io\).woff);
+    src: url(../fonts/Raleway-VariableFont_wght.ttf) format(truetype), url(../fonts/Raleway-Italic-VariableFont_wght.ttf) format(truetype);
+}
+
+
+body{
+    max-width: 1160px;
+    margin: auto;
+}
+
+header{
+    background-color: #17abb3;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile img{
+    border: 5px solid white;
+    border-radius: 50%;
+    height: 145px;
+    width: 145px;
+    margin-left: 100px;
+}
+
+.container{
+    margin-bottom: 50px;
+    margin-right: 280px;
+    text-align: center;
+}
+
+.infos h1, h2{
+    font-family: "Lato", serif;
+}
+
+.infos h1{
+    font-size: 3em;
+    margin: 50px 0 0 0;
+}
+
+.contact { 
+    display: flex; 
+    justify-content: center; 
+    gap: 20px;
+    font-family: "Raleway", serif;
+} 
+
+.column a{ 
+    display: flex; 
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.column a i{
+    margin-right: 8px;
+}
+
+
+
+
+
+
