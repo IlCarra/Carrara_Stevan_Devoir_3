@@ -1,0 +1,64 @@
+.level{
+    max-width: 400px;
+    background-color: #e3e3e3;
+    border: 1px solid #e3e3e3;
+}
+
+.skills, .languages, .quality, .hobby{ 
+    width: 300px; 
+    margin: 50px auto; 
+    text-align: left; 
+}
+
+.level h2{
+    font-family: "Lato", serif;
+    color: #17abb3;
+}
+
+.level{
+    font-family: "Raleway", serif;
+}
+
+.skill { 
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 10px; 
+}
+
+.skill span{ 
+    flex: 1;
+    font-weight: bold; 
+}
+
+.skill i{
+    color: #17abb3;
+}
+
+.languages ul{
+    list-style: none;
+    padding: 0;
+}
+
+.languages li{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+.languages span{
+    font-weight: bold;
+}
+
+.quality ul, .hobby ul{
+    list-style: square;
+    padding: 0;
+    margin: 0 18px;
+}
+
+.quality li::marker, .hobby li::marker{
+    color: #17abb3;
+}
+
+.quality li, .hobby li{
+    margin: 5px 0;
+}
