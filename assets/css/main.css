@@ -1,5 +1,16 @@
-.level{
-    max-width: 400px;
+.main-content{
+    display: flex;
+}
+
+.presentation{
+    width: 70%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+
+.sidebar{
+    width: 400px;
     background-color: #e3e3e3;
     border: 1px solid #e3e3e3;
 }
@@ -10,12 +21,12 @@
     text-align: left; 
 }
 
-.level h2{
+.sidebar h2, .presentation h2{
     font-family: "Lato", serif;
     color: #17abb3;
 }
 
-.level{
+.sidebar, .presentation{
     font-family: "Raleway", serif;
 }
 
@@ -61,4 +72,35 @@
 
 .quality li, .hobby li{
     margin: 5px 0;
+}
+
+.profile-description p{
+    text-indent: 5%;
+}
+
+.diplomas ul, .experiences ul{
+    list-style: none;
+    padding: 0;
+}
+
+.formation, .experience{
+    margin: 20px 0;
+}
+
+.place{
+    font-size: small;
+    font-style: italic;
+}
+
+.experiences li, .diplomas li{
+    display: flex;
+    justify-content: space-between;
+}
+
+.type{
+    font-weight: bold;
+}
+
+.period{
+    color: #17abb3;
 }

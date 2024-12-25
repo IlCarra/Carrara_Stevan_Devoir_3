@@ -1,0 +1,24 @@
+footer{
+    border: 1px solid #17abb3;
+    background-color: #17abb3;
+    padding: 15px;
+}
+
+.social, .social a{
+    text-align: center;
+    margin: 0 8px;
+    color: white;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: small;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.fa-brands{
+    font-size: 22px;
+}
