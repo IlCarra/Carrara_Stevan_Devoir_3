@@ -23,9 +23,15 @@ header{
 .profile img{
     border: 5px solid white;
     border-radius: 50%;
-    height: 145px;
-    width: 145px;
+    height: 150px;
+    width: 150px;
     margin-left: 100px;
+    cursor: zoom-in;
+    object-fit: cover;
+}
+
+.profile img:hover{
+    transform: scale(1.05);
 }
 
 .container{
