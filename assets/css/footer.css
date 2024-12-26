@@ -20,5 +20,14 @@ footer p{
 }
 
 .fa-brands{
-    font-size: 22px;
+    font-size: 25px;
+}
+
+.social i{
+    opacity: 1;
+}
+
+.social i:hover{
+    opacity: 0.6;
+    transition: 0.3s;
 }

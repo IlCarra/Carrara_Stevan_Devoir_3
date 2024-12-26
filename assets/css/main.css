@@ -85,6 +85,10 @@
 
 .formation, .experience{
     margin: 20px 0;
+    padding: 10px 0;
+    padding-right: 5px;
+    position: relative;
+    transition: padding-left 0.3s;
 }
 
 .place{
@@ -103,4 +107,25 @@
 
 .period{
     color: #17abb3;
+}
+
+.formation::before, .experience::before{
+    content: ""; 
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    bottom: 0; 
+    width: 0;
+    background-color: transparent;
+    transition: background-color 0.3s, width 0.3s;
+}
+
+.formation:hover::before, .experience:hover::before{
+    background-color: #17abb3;
+    width: 5px;
+}
+
+.formation:hover, .experience:hover{
+    background-color: #e3e3e3;
+    padding-left: 15px;
 }
